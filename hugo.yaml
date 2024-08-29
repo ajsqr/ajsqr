@@ -1,4 +1,4 @@
 baseURL: https://ajsqr.dev
 languageCode: en-us
 title: ajsqr
-theme: [github.com/adityatelange/hugo-PaperMod]
+theme: [PaperMod]
