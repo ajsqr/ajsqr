@@ -2,3 +2,24 @@ baseURL: https://ajsqr.dev
 languageCode: en-us
 title: ajsqr
 theme: [PaperMod]
+params:
+  profileMode:
+    enabled: true
+    title: "Hello, I'm Ajay!" # optional default will be site title
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Github
+        url: "https://github.com/ajsqr"
+
+menu:
+  main:
+    - identifier: blog
+      name: blog
+      url: /blog/
+      weight: 10
+
+    - identifier: about-me
+      name: about-me
+      url: /about-me/
+      weight: 30
